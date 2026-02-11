@@ -9,5 +9,7 @@ npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Greeter.ts
+npx hardhat ignition deploy ./ignition/modules/Greeter.ts --network celo
 ```
+
+Contract Address: 0xC7dc2a8cb257B98ac07b7767baa2291addA94109

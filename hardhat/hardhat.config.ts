@@ -16,6 +16,10 @@ const config: HardhatUserConfig = {
             url: "https://rpc.testnet.arc.network",
             accounts: [`0x${PRIVATE_KEY}`],
         },
+        celo: {
+            url: "https://forno.celo-sepolia.celo-testnet.org",
+            accounts: [`0x${PRIVATE_KEY}`],
+        },
     },
 };
 export default config;
